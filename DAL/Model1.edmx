@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MiriFridiFinalProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+          <Property Name="AvgScore" Type="int" />
+        </EntityType>
+        <EntityType Name="ExistingServices">
+          <Key>
+            <PropertyRef Name="ServiceId" />
+          </Key>
+          <Property Name="ServiceId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdOfferUser" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="CostInPoint" Type="int" />
+          <Property Name="IdCategory" Type="int" />
+        </EntityType>
+        <EntityType Name="ServiceRequests">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdRequestingUser" Type="int" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="PointsCost" Type="int" />
+          <Property Name="DateOfRequest" Type="datetime" />
+          <Property Name="IdCategory" Type="int" />
+          <Property Name="RequestStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="ServiceRequestsOk">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdService" Type="int" />
+          <Property Name="IdOfferUser" Type="int" />
+          <Property Name="IdRequestingUser" Type="int" />
+          <Property Name="CustomerRequestOk" Type="bit" />
+          <Property Name="OffersServiceOK" Type="bit" />
+          <Property Name="ExecutionDate" Type="datetime" />
+          <Property Name="ServiceScore" Type="int" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar(max)" />
+          <Property Name="Tz" Type="nvarchar" MaxLength="9" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+          <Property Name="CityAdress" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="PointsNum" Type="int" />
+        </EntityType>
+        <Association Name="FK_ExistingServices_Categories">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ExistingServices">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ExistingServices_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ExistingServices">
+              <PropertyRef Name="IdOfferUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequests_Categories">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ServiceRequests">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequests_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequests">
+              <PropertyRef Name="IdRequestingUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_ExistingServices">
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ExistingServices">
+              <PropertyRef Name="ServiceId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdService" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdOfferUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_Users1">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdRequestingUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MiriFridiFinalProjectModelStoreContainer">
+          <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ExistingServices" EntityType="Self.ExistingServices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ServiceRequests" EntityType="Self.ServiceRequests" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ServiceRequestsOk" EntityType="Self.ServiceRequestsOk" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ExistingServices_Categories" Association="Self.FK_ExistingServices_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ExistingServices_Users" Association="Self.FK_ExistingServices_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequests_Categories" Association="Self.FK_ServiceRequests_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequests_Users" Association="Self.FK_ServiceRequests_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_ExistingServices" Association="Self.FK_ServiceRequestsOk_ExistingServices">
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_Users" Association="Self.FK_ServiceRequestsOk_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_Users1" Association="Self.FK_ServiceRequestsOk_Users1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MiriFridiFinalProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AvgScore" Type="Int32" />
+          <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ExistingServices_Categories" FromRole="Categories" ToRole="ExistingServices" />
+          <NavigationProperty Name="ServiceRequests" Relationship="Self.FK_ServiceRequests_Categories" FromRole="Categories" ToRole="ServiceRequests" />
+        </EntityType>
+        <EntityType Name="ExistingServices">
+          <Key>
+            <PropertyRef Name="ServiceId" />
+          </Key>
+          <Property Name="ServiceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdOfferUser" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CostInPoint" Type="Int32" />
+          <Property Name="IdCategory" Type="Int32" />
+          <NavigationProperty Name="Categories" Relationship="Self.FK_ExistingServices_Categories" FromRole="ExistingServices" ToRole="Categories" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_ExistingServices_Users" FromRole="ExistingServices" ToRole="Users" />
+          <NavigationProperty Name="ServiceRequestsOk" Relationship="Self.FK_ServiceRequestsOk_ExistingServices" FromRole="ExistingServices" ToRole="ServiceRequestsOk" />
+        </EntityType>
+        <EntityType Name="ServiceRequests">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdRequestingUser" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PointsCost" Type="Int32" />
+          <Property Name="DateOfRequest" Type="DateTime" Precision="3" />
+          <Property Name="IdCategory" Type="Int32" />
+          <Property Name="RequestStatus" Type="Boolean" />
+          <NavigationProperty Name="Categories" Relationship="Self.FK_ServiceRequests_Categories" FromRole="ServiceRequests" ToRole="Categories" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_ServiceRequests_Users" FromRole="ServiceRequests" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="ServiceRequestsOk">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdService" Type="Int32" />
+          <Property Name="IdOfferUser" Type="Int32" />
+          <Property Name="IdRequestingUser" Type="Int32" />
+          <Property Name="CustomerRequestOk" Type="Boolean" />
+          <Property Name="OffersServiceOK" Type="Boolean" />
+          <Property Name="ExecutionDate" Type="DateTime" Precision="3" />
+          <Property Name="ServiceScore" Type="Int32" />
+          <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ServiceRequestsOk_ExistingServices" FromRole="ServiceRequestsOk" ToRole="ExistingServices" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_ServiceRequestsOk_Users" FromRole="ServiceRequestsOk" ToRole="Users" />
+          <NavigationProperty Name="Users1" Relationship="Self.FK_ServiceRequestsOk_Users1" FromRole="ServiceRequestsOk" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Tz" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CityAdress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PointsNum" Type="Int32" />
+          <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ExistingServices_Users" FromRole="Users" ToRole="ExistingServices" />
+          <NavigationProperty Name="ServiceRequests" Relationship="Self.FK_ServiceRequests_Users" FromRole="Users" ToRole="ServiceRequests" />
+          <NavigationProperty Name="ServiceRequestsOk" Relationship="Self.FK_ServiceRequestsOk_Users" FromRole="Users" ToRole="ServiceRequestsOk" />
+          <NavigationProperty Name="ServiceRequestsOk1" Relationship="Self.FK_ServiceRequestsOk_Users1" FromRole="Users" ToRole="ServiceRequestsOk" />
+        </EntityType>
+        <Association Name="FK_ExistingServices_Categories">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ExistingServices">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequests_Categories">
+          <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+          <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Categories">
+              <PropertyRef Name="CategoryId" />
+            </Principal>
+            <Dependent Role="ServiceRequests">
+              <PropertyRef Name="IdCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ExistingServices_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ExistingServices">
+              <PropertyRef Name="IdOfferUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_ExistingServices">
+          <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ExistingServices">
+              <PropertyRef Name="ServiceId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdService" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequests_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequests">
+              <PropertyRef Name="IdRequestingUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdOfferUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ServiceRequestsOk_Users1">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="ServiceRequestsOk">
+              <PropertyRef Name="IdRequestingUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MiriFridiFinalProjectEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="Self.Categories" />
+          <EntitySet Name="ExistingServices" EntityType="Self.ExistingServices" />
+          <EntitySet Name="ServiceRequests" EntityType="Self.ServiceRequests" />
+          <EntitySet Name="ServiceRequestsOk" EntityType="Self.ServiceRequestsOk" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_ExistingServices_Categories" Association="Self.FK_ExistingServices_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequests_Categories" Association="Self.FK_ServiceRequests_Categories">
+            <End Role="Categories" EntitySet="Categories" />
+            <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ExistingServices_Users" Association="Self.FK_ExistingServices_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_ExistingServices" Association="Self.FK_ServiceRequestsOk_ExistingServices">
+            <End Role="ExistingServices" EntitySet="ExistingServices" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequests_Users" Association="Self.FK_ServiceRequests_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_Users" Association="Self.FK_ServiceRequestsOk_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ServiceRequestsOk_Users1" Association="Self.FK_ServiceRequestsOk_Users1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MiriFridiFinalProjectModelStoreContainer" CdmEntityContainer="MiriFridiFinalProjectEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.Categories">
+              <MappingFragment StoreEntitySet="Categories">
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="AvgScore" ColumnName="AvgScore" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ExistingServices">
+            <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ExistingServices">
+              <MappingFragment StoreEntitySet="ExistingServices">
+                <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+                <ScalarProperty Name="IdOfferUser" ColumnName="IdOfferUser" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CostInPoint" ColumnName="CostInPoint" />
+                <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServiceRequests">
+            <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ServiceRequests">
+              <MappingFragment StoreEntitySet="ServiceRequests">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdRequestingUser" ColumnName="IdRequestingUser" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="PointsCost" ColumnName="PointsCost" />
+                <ScalarProperty Name="DateOfRequest" ColumnName="DateOfRequest" />
+                <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+                <ScalarProperty Name="RequestStatus" ColumnName="RequestStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ServiceRequestsOk">
+            <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ServiceRequestsOk">
+              <MappingFragment StoreEntitySet="ServiceRequestsOk">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdService" ColumnName="IdService" />
+                <ScalarProperty Name="IdOfferUser" ColumnName="IdOfferUser" />
+                <ScalarProperty Name="IdRequestingUser" ColumnName="IdRequestingUser" />
+                <ScalarProperty Name="CustomerRequestOk" ColumnName="CustomerRequestOk" />
+                <ScalarProperty Name="OffersServiceOK" ColumnName="OffersServiceOK" />
+                <ScalarProperty Name="ExecutionDate" ColumnName="ExecutionDate" />
+                <ScalarProperty Name="ServiceScore" ColumnName="ServiceScore" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Tz" ColumnName="Tz" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="CityAdress" ColumnName="CityAdress" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="PointsNum" ColumnName="PointsNum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

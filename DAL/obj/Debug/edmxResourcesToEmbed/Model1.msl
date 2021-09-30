@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MiriFridiFinalProjectModelStoreContainer" CdmEntityContainer="MiriFridiFinalProjectEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="AvgScore" ColumnName="AvgScore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExistingServices">
+      <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ExistingServices">
+        <MappingFragment StoreEntitySet="ExistingServices">
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="IdOfferUser" ColumnName="IdOfferUser" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CostInPoint" ColumnName="CostInPoint" />
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceRequests">
+      <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ServiceRequests">
+        <MappingFragment StoreEntitySet="ServiceRequests">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdRequestingUser" ColumnName="IdRequestingUser" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PointsCost" ColumnName="PointsCost" />
+          <ScalarProperty Name="DateOfRequest" ColumnName="DateOfRequest" />
+          <ScalarProperty Name="IdCategory" ColumnName="IdCategory" />
+          <ScalarProperty Name="RequestStatus" ColumnName="RequestStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceRequestsOk">
+      <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.ServiceRequestsOk">
+        <MappingFragment StoreEntitySet="ServiceRequestsOk">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdService" ColumnName="IdService" />
+          <ScalarProperty Name="IdOfferUser" ColumnName="IdOfferUser" />
+          <ScalarProperty Name="IdRequestingUser" ColumnName="IdRequestingUser" />
+          <ScalarProperty Name="CustomerRequestOk" ColumnName="CustomerRequestOk" />
+          <ScalarProperty Name="OffersServiceOK" ColumnName="OffersServiceOK" />
+          <ScalarProperty Name="ExecutionDate" ColumnName="ExecutionDate" />
+          <ScalarProperty Name="ServiceScore" ColumnName="ServiceScore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="MiriFridiFinalProjectModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Tz" ColumnName="Tz" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="CityAdress" ColumnName="CityAdress" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PointsNum" ColumnName="PointsNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

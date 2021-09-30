@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinalProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AvgScore" Type="Int32" />
+    <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ExistingServices_Categories" FromRole="Categories" ToRole="ExistingServices" />
+    <NavigationProperty Name="ServiceRequests" Relationship="Self.FK_ServiceRequests_Categories" FromRole="Categories" ToRole="ServiceRequests" />
+  </EntityType>
+  <EntityType Name="ExistingServices">
+    <Key>
+      <PropertyRef Name="ServiceId" />
+    </Key>
+    <Property Name="ServiceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdOfferUser" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CostInPoint" Type="Int32" />
+    <Property Name="IdCategory" Type="Int32" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_ExistingServices_Categories" FromRole="ExistingServices" ToRole="Categories" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_ExistingServices_Users" FromRole="ExistingServices" ToRole="Users" />
+    <NavigationProperty Name="ServiceRequestsOk" Relationship="Self.FK_ServiceRequestsOk_ExistingServices" FromRole="ExistingServices" ToRole="ServiceRequestsOk" />
+  </EntityType>
+  <EntityType Name="ServiceRequests">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdRequestingUser" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PointsCost" Type="Int32" />
+    <Property Name="DateOfRequest" Type="DateTime" Precision="3" />
+    <Property Name="IdCategory" Type="Int32" />
+    <Property Name="RequestStatus" Type="Boolean" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_ServiceRequests_Categories" FromRole="ServiceRequests" ToRole="Categories" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_ServiceRequests_Users" FromRole="ServiceRequests" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="ServiceRequestsOk">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdService" Type="Int32" />
+    <Property Name="IdOfferUser" Type="Int32" />
+    <Property Name="IdRequestingUser" Type="Int32" />
+    <Property Name="CustomerRequestOk" Type="Boolean" />
+    <Property Name="OffersServiceOK" Type="Boolean" />
+    <Property Name="ExecutionDate" Type="DateTime" Precision="3" />
+    <Property Name="ServiceScore" Type="Int32" />
+    <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ServiceRequestsOk_ExistingServices" FromRole="ServiceRequestsOk" ToRole="ExistingServices" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_ServiceRequestsOk_Users" FromRole="ServiceRequestsOk" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK_ServiceRequestsOk_Users1" FromRole="ServiceRequestsOk" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tz" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CityAdress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PointsNum" Type="Int32" />
+    <NavigationProperty Name="ExistingServices" Relationship="Self.FK_ExistingServices_Users" FromRole="Users" ToRole="ExistingServices" />
+    <NavigationProperty Name="ServiceRequests" Relationship="Self.FK_ServiceRequests_Users" FromRole="Users" ToRole="ServiceRequests" />
+    <NavigationProperty Name="ServiceRequestsOk" Relationship="Self.FK_ServiceRequestsOk_Users" FromRole="Users" ToRole="ServiceRequestsOk" />
+    <NavigationProperty Name="ServiceRequestsOk1" Relationship="Self.FK_ServiceRequestsOk_Users1" FromRole="Users" ToRole="ServiceRequestsOk" />
+  </EntityType>
+  <Association Name="FK_ExistingServices_Categories">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="ExistingServices">
+        <PropertyRef Name="IdCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceRequests_Categories">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="ServiceRequests">
+        <PropertyRef Name="IdCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExistingServices_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ExistingServices">
+        <PropertyRef Name="IdOfferUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceRequestsOk_ExistingServices">
+    <End Role="ExistingServices" Type="Self.ExistingServices" Multiplicity="0..1" />
+    <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExistingServices">
+        <PropertyRef Name="ServiceId" />
+      </Principal>
+      <Dependent Role="ServiceRequestsOk">
+        <PropertyRef Name="IdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceRequests_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ServiceRequests" Type="Self.ServiceRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ServiceRequests">
+        <PropertyRef Name="IdRequestingUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceRequestsOk_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ServiceRequestsOk">
+        <PropertyRef Name="IdOfferUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceRequestsOk_Users1">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ServiceRequestsOk" Type="Self.ServiceRequestsOk" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ServiceRequestsOk">
+        <PropertyRef Name="IdRequestingUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FinalProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="ExistingServices" EntityType="Self.ExistingServices" />
+    <EntitySet Name="ServiceRequests" EntityType="Self.ServiceRequests" />
+    <EntitySet Name="ServiceRequestsOk" EntityType="Self.ServiceRequestsOk" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_ExistingServices_Categories" Association="Self.FK_ExistingServices_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="ExistingServices" EntitySet="ExistingServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceRequests_Categories" Association="Self.FK_ServiceRequests_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExistingServices_Users" Association="Self.FK_ExistingServices_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ExistingServices" EntitySet="ExistingServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceRequestsOk_ExistingServices" Association="Self.FK_ServiceRequestsOk_ExistingServices">
+      <End Role="ExistingServices" EntitySet="ExistingServices" />
+      <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceRequests_Users" Association="Self.FK_ServiceRequests_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ServiceRequests" EntitySet="ServiceRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceRequestsOk_Users" Association="Self.FK_ServiceRequestsOk_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceRequestsOk_Users1" Association="Self.FK_ServiceRequestsOk_Users1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ServiceRequestsOk" EntitySet="ServiceRequestsOk" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

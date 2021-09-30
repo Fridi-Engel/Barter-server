@@ -1,0 +1,42 @@
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csprojAssemblyReference.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CopyComplete
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csprojAssemblyReference.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\BL.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DAL.dll.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\DTO.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\bin\Debug\EntityFramework.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\BL\obj\Debug\BL.pdb

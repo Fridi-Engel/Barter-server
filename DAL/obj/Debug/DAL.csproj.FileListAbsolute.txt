@@ -1,0 +1,36 @@
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\DAL.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DAL\obj\Debug\DAL.pdb

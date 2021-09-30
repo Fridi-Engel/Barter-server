@@ -1,0 +1,18 @@
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\bin\Debug\DTO.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,282 @@
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.rsp
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.rsp
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.AppContext.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Collections.Immutable.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Console.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Compression.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Reflection.Metadata.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.AccessControl.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Claims.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.ValueTuple.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.rsp
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe.config
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.Web.Infrastructure.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\WebGrease.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csprojAssemblyReference.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CopyComplete
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.pdb
+Y:\תשפא\2\ליבוביץ מרים\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.rsp
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.rsp
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Managed.Core.targets
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.AppContext.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Collections.Immutable.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Console.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Compression.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Reflection.Metadata.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.AccessControl.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Claims.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Principal.Windows.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.ValueTuple.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XmlDocument.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.rsp
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.Web.Infrastructure.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\WebGrease.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll.config
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.dll
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.pdb
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csprojAssemblyReference.cache
+E:\פרויקט\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\API.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.exe.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csc.rsp
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.exe.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\csi.rsp
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.AppContext.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Collections.Immutable.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Console.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Compression.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.IO.Pipes.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.AccessControl.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Claims.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.ValueTuple.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.exe.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\vbc.rsp
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\roslyn\VBCSCompiler.exe.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.Web.Infrastructure.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\WebGrease.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\BL.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\DTO.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\EntityFramework.SqlServer.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Newtonsoft.Json.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Net.Http.Formatting.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Helpers.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.WebHost.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Mvc.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Optimization.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Razor.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Deployment.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.WebPages.Razor.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Antlr3.Runtime.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\DAL.dll.config
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.csproj.CopyComplete
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\obj\Debug\API.pdb
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Cors.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.Cors.dll
+C:\fridi\פרויקט סיום\FinalProjectMiriFridi\API\bin\System.Web.Http.Cors.xml
